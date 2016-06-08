@@ -153,6 +153,7 @@ iframe {position: absolute;
 		  background-size: cover;
 		  height: 200px;
 		  position: relative;
+		  text-indent: -9999px;
 		  top:230px;
 		  left: 90%;
 		  cursor: pointer;
@@ -361,6 +362,7 @@ h2#hfilm  { margin: 0;
 		  bottom: 0;
 		  z-index: 3;
 		  cursor: pointer;
+		  text-indent: -9999px;
 		  webkit-animation: bouge-buisson 2s infinite;
           -moz-animation: bouge-buisson 2s infinite;
           -o-animation: bouge-buisson 2s infinite;
@@ -608,6 +610,113 @@ p#dispo {text-align: center;
 
 /* ---------------------- 1400px ------------------ */
 
+@media screen and (min-width: 1280px) {
+  footer {background-size: cover;}
+}
+
+
+@media  (min-width: 1350px) {
+
+#Stage  {margin: 0 auto;}
+
+.ipad  {left: 28%;}
+
+#dvd_rouge {left: 60%;}
+
+p#dispo {top:350px;}
+
+#trait_h2 {width: 23%;}
+
+}
+
+
+
+@media  (min-width: 1500px) {
+
+.grande {width: 98%; margin: 0 auto;}
+
+.ipad  {left: 31%;}
+
+ul.lien_achat {left: 38%;}
+
+h2#hdeux  {left: 41%;}
+
+#dvd_rouge {left: 60%;}
+
+}
+
+@media  (min-width: 1600px) {
+
+footer  {top:360px;}
+
+h2#hdeux  {left: 42%;}
+
+button#decouvrir {left: 36%;}
+
+#dvd_rouge {left: 61%;}
+
+p#dispo {top:380px;}
+
+ul.lien_achat_footer {top:400px}
+
+#trait_h2_dome, #trait_h2_histoire{width: 12%;}
+
+#trait_h2_histoire  {left: 45.5%;}
+
+#trait_h2_dome {left: 54%;}
+
+h2#hhistoire {left: 41%;}
+
+h2#hdome {left: 58.5%;}
+
+}
+
+@media  (min-width: 1700px) {
+
+ul.lien_achat_footer {top:420px;}
+
+p#dispo {top:400px;}
+
+footer  {top:360px;}
+
+h2#hdeux  {left: 42%;}
+
+#dvd_rouge {left: 62%;}
+
+#trait_h2 {width: 22%;}
+
+h2#hhistoire {left: 41.5%;}
+
+h2#hdome {left: 58%;}
+
+
+}
+
+@media  (min-width: 1800px) {
+
+ul.lien_achat_footer {top:440px;}
+
+footer  {top:340px;}
+
+button#decouvrir {left: 37%;}
+
+#dvd_rouge {left: 63%;}
+
+p#dispo {top:420px;}
+
+#trait_h2 {width: 19%;}
+
+#trait_h2_dome, #trait_h2_histoire{width: 10%;}
+
+#trait_h2_histoire  {left: 46%;}
+
+#trait_h2_dome {left: 54%;}
+
+h2#hhistoire {left: 42.5%;}
+
+h2#hdome {left: 57.5%;}
+
+}
 
 @media (min-width: 1920px) {
 
@@ -623,34 +732,29 @@ ul#liste_perso p {left: -5%;}
 
 h2#hfilm  {left: 60%;}
 
- #trait_h2_film  {left: 26%;position: relative;width: 22%;}
+#trait_h2_film  {left: 26%;position: relative;width: 22%;}
+
+.ipad  {left: 34%;}
+
+footer  {top:300px;}
+
+ul.lien_achat {left: 40%;}
+
+h2#hdeux  {left: 42%;}
+
+ul.lien_achat_footer {top:440px;}
+
+p#dispo {top:450px;}
+
+button#decouvrir {left: 38%;}
+
+#image_dome {left: 10%;position: relative;}
+
+#partie_text_accueil {top:30px;}
+
+#trait_h2 {width: 19%;}
+
 }
-
-@media screen and (min-width: 1520px) {
-
-.grande {width: 98%; margin: 0 auto;}
-
-}
-
-
-/*
-
-@media screen and (min-width: 1350px) {
-
-
-#trait_h2 {position: relative;
-		   left: 70%;}
-
-
-}
-
-@media screen and (min-width: 1280px) {
-  footer {background-size: cover;}
-}
-
-@media screen and (min-width: 1400px) {
-  #section_accueil {left: 25%;}
-}*/
 
 /* ---------------------- 1200px ------------------ */
 
@@ -664,16 +768,18 @@ h2#hfilm  {left: 60%;}
 
 #image_dome {width:72%;}
 
+button#decouvrir {left: 31%;}
+
 }
 
-
 /* ---------------------- 1150px ------------------ */
-
 
 @media (max-width: 1150px) {
 
 h2#hdeux {left: 39%;}
+
 ul.lien_achat {left: 31%;}
+
 .ipad {left: 22%;}
 
 #partie_text_accueil {width: 92%;
@@ -685,8 +791,6 @@ ul.lien_achat {left: 31%;}
 
 #trait_h2_histoire {top:180px;}
 
-
-
 }
 
 /* ---------------------- 1120px ------------------ */
@@ -697,13 +801,12 @@ ul.lien_achat {left: 31%;}
 
 }
 
-
 /* ---------------------- 1100px ------------------ */
-
 
 @media (max-width: 1100px) {
 
 .ipad {left: 21.5%;}
+
 #liste_perso li:nth-child(2) {width: 47%;
 							  height: 450px;
 							  top:100px;
@@ -737,17 +840,20 @@ h2#hdome  {left: 59.5%;}
 
 section#histoire {height: 780px;}
 
+button#decouvrir {left: 29%;}
 
 }
-
 
 /* ---------------------- 1050px ------------------ */
 
 @media (max-width: 1050px) {
 
- h2#hdeux {left: 38%;}
+h2#hdeux {left: 38%;}
+
 ul.lien_achat {left: 30%;}
+
 .ipad {left: 20%;}
+
 #liste_perso li:nth-child(2) {width: 48%;
 							  height: 450px;
 							  top:100px;
@@ -774,21 +880,20 @@ h2#hdome  {left: 59.5%;}
 h2#hhistoire  {left: 40%;}
 
 #partie_text_film {height: 520px;}
+
 }
 
 /* ---------------------- 1000px ------------------ */
 
 @media (max-width: 1000px) {
 
-
 #trait_h2 {top:520px;left: 73%;width: 22%;}
 
- h2#hdeux {left: 37%;}
+h2#hdeux {left: 37%;}
 
 #liste_perso li:nth-child(3) {width: 11%;
 							 height: 150px;
 							 top:490px;}
-
 
 #image_dome {width:80%;}
 
@@ -803,10 +908,10 @@ h2#hhistoire  {left: 39.5%;}
 #partie_histoire p {top:0px;width: 70%;}
 
 }
+
 /* ---------------------- 975px ------------------ */
 
 @media (max-width: 975px) {
-
 
 #liste_perso li:nth-child(1) {width: 50%;
 							  height: 380px;
@@ -827,7 +932,6 @@ h2#hhistoire  {left: 39.5%;}
 
 h2#hrobot {left: 17%;top:240px;}
 
-
 #partie_text_accueil {width: 100%;}
 
 #sous_section_principale  h1 {left: 47%;
@@ -841,8 +945,8 @@ h2#hfilm {top:-320px;left: 49%;}
 
 #trait_h2_film {top:-250px;left: 40%;width: 20%;}
 
-
 }
+
 /* ---------------------- 950px ------------------ */
 
 @media (max-width: 950px) {
@@ -866,8 +970,10 @@ h2#hhistoire  {left: 39%;}
 #partie_dome {height:750px;}
 
 section#histoire {height: 900px;}
-}
 
+button#decouvrir {left: 26%;}
+
+}
 
 /* ---------------------- 900px ------------------ */
 
@@ -887,9 +993,7 @@ h2#hhistoire  {left: 39%;}
 
 #partie_dome {height:800px;}
 
-
 }
-
 
 /* ---------------------- 850px ------------------ */
 
@@ -928,14 +1032,13 @@ h2#hhistoire  {left: 38.5%;}
 
 #partie_dome {height:900px;}
 
+button#decouvrir {left: 23%;}
 
 }
 
 /* ---------------------- 825px ------------------ */
 
 @media (max-width: 825px) {
-
-
 
 #liste_perso li:nth-child(1) {width: 40%;
 							  top:50px;
@@ -945,7 +1048,6 @@ h2#hhistoire  {left: 38.5%;}
 
 #liste_perso li:nth-child(2) {width: 60%;
 							  height: 450px;}
-
 
 #partie_text_accueil  {right:-9%;top:-10px;}
 
@@ -970,9 +1072,7 @@ h2#hrobot {left: 17%;top:280px;}
 
 }
 
-
 /* ---------------------- 800px ------------------ */
-
 
 @media (max-width: 800px) {
 
@@ -983,7 +1083,7 @@ h2#hrobot {left: 17%;top:280px;}
 
 #partie_dome {width: 90%;
 			  height: 650px;
-			  top:500px;
+			  top:520px;
 			  left: 6%;}
 
 #acacher p {top:50px;
@@ -996,8 +1096,6 @@ h2#hrobot {left: 17%;top:280px;}
 
 #partie_histoire p {width: 58%;}
 
-
-
 h2#hdome , #trait_h2_dome
 , #trait_h2_histoire , h2#hhistoire
 { -ms-transform: rotate(0deg);
@@ -1006,16 +1104,17 @@ transform: rotate(0deg);}
 
 h2#hdome {left: 10%;top:-20px;}
 
-h2#hhistoire {top:440px;left: 71%;}
+h2#hhistoire {top:460px;left: 71%;}
 
 #trait_h2_dome {left: 0%;top:-20px;width: 26%;}
 
-#trait_h2_histoire {left: 71%;top:445px;width: 32%;}
+#trait_h2_histoire {left: 71%;top:465px;width: 32%;}
 
 #image_dome {width:45%;left: 40%;top:200px;}
 
-
 section#histoire {height: 1300px;}
+
+button#decouvrir {left: 37%;}
 
 footer {background: url('../images/footer_800px.png') no-repeat;}
 }
@@ -1063,8 +1162,7 @@ iframe {top:37px;
 		width: 370px;
 		height: 275px;}
 
-
-
+button#decouvrir {left: 36%;}
 
 }
 
@@ -1075,6 +1173,7 @@ iframe {top:37px;
 #liste_perso li:nth-child(2) {height: 470px;}
 
 #section_principale  {height: 1620px;}
+
 }
 
 /* ----------------------687px ------------------ */
@@ -1086,12 +1185,10 @@ iframe {top:37px;
 h2#hrobot {left: 18%;}
 
 #trait_h2 {left: 9%;top:424px;width: 27%;}
+
 }
 
-
-
 /* ---------------------- 650px ------------------ */
-
 
 @media (max-width: 650px) {
 
@@ -1141,8 +1238,9 @@ section#histoire {height: 1450px;}
 
 #partie_text_film {height: 580px;}
 
-}
+button#decouvrir {left: 34%;}
 
+}
 
 /* ---------------------- 600px ------------------ */
 
@@ -1152,9 +1250,7 @@ h1#hun  {left: 71%;}
 
 h2#hdeux {left: 49%;}
 
-
 }
-
 
 /* ---------------------- 590px ------------------ */
 
@@ -1199,6 +1295,7 @@ h2#hrobot {z-index: 1001;top:380px;left: 21%;}
 h2#hfilm {top:-820px;left: 17.5%;}
 
 #trait_h2_film {top:-755px;left: 5%;width: 31%;}
+
 #partie_text_film {height: 580px;}
 
 }
@@ -1206,7 +1303,7 @@ h2#hfilm {top:-820px;left: 17.5%;}
 
 @media (max-width: 550px) {
 
- h1#hun  {font-size: 45pt;
+h1#hun  {font-size: 45pt;
 		  left: 77%;}
 
 h2#hdeux {left: 52%;
@@ -1241,6 +1338,7 @@ iframe {top:32px;
 
 #partie_text_film {top: -1000px;}
 
+button#decouvrir {left: 31%;}
 
 }
 
@@ -1314,9 +1412,9 @@ ul.lien_achat_footer {top:410px;}
 
 #dvd_rouge {top:-930px;}
 
-
 #partie_text_film {top: -1100px;}
 
+button#decouvrir {left: 29%;}
 
 }
 
@@ -1345,7 +1443,7 @@ h2#hhistoire {top:595px;left: 54%;}
 #liste_perso li:nth-child(3), #hrobot, #trait_h2, #baleine 
 {opacity: 0;}
 
-
+button#decouvrir {left: 27%;}
 
 }
 
@@ -1358,7 +1456,6 @@ h1#hun  {left: 98%;color: red;}
 .ipad {left: 17%;}
 
 #liste_perso li:nth-child(2) {background: red;}
-
 
 }
 
@@ -1422,7 +1519,7 @@ h2#hfilm {top:-1080px;}
 
 #partie_text_film {top: -1250px;height: 620px;}
 
-
+button#decouvrir {left: 24%;}
 
 }
 
